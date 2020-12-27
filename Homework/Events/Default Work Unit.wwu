@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EFD3651B-51EE-44B0-90C6-A08D648689DB}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{EFD3651B-51EE-44B0-90C6-A08D648689DB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_UI_Click" ID="{513B8E52-6E48-40DB-A129-2E4D21D35DD7}">
+					<ChildrenList>
+						<Action Name="" ID="{CC872893-97BB-4757-AAAF-4FA4829CAD8D}" ShortID="162358181">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Click" ID="{7A7FF90D-E292-4AFD-86D4-68E45DFE6D7F}" WorkUnitID="{9C9A7BDD-2E56-4FA9-A49A-A31B2780DBBD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Shotgun" ID="{00E770FA-90AB-487A-9745-43CA1DC4C8AC}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

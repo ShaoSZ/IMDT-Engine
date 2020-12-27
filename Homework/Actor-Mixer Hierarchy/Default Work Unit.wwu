@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9C9A7BDD-2E56-4FA9-A49A-A31B2780DBBD}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{9C9A7BDD-2E56-4FA9-A49A-A31B2780DBBD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="UI_Click" ID="{7A7FF90D-E292-4AFD-86D4-68E45DFE6D7F}" ShortID="434592366">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B800C7C8-4837-4104-ABCA-0B5CBE511DFA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C941F12-25C8-4087-87EA-5096605D57FE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="暴发的气流声－xh20070511" ID="{D6A36DFA-B511-4B0B-838D-01369044614C}">
+							<Language>SFX</Language>
+							<AudioFile>暴发的气流声－xh20070511.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="335555536"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="暴发的气流声－xh20070511" ID="{D6A36DFA-B511-4B0B-838D-01369044614C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Footsteps" ID="{2EA73BCD-A6AD-4C0C-B8CA-E0DCDF9F83F7}" ShortID="543615654">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B800C7C8-4837-4104-ABCA-0B5CBE511DFA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{2254E187-7ED6-4C79-A6BA-B076C40ADA76}" WorkUnitID="{2C941F12-25C8-4087-87EA-5096605D57FE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="移动1-xys20070416" ID="{D19368C9-314F-4DB4-98B3-00779011F5DB}" ShortID="31994146">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B800C7C8-4837-4104-ABCA-0B5CBE511DFA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C941F12-25C8-4087-87EA-5096605D57FE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="移动1-xys20070416" ID="{ADEDC91E-1AD7-47DC-BB56-6FA8D5D24091}">
+									<Language>SFX</Language>
+									<AudioFile>移动1-xys20070416.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="102373997"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="移动1-xys20070416" ID="{ADEDC91E-1AD7-47DC-BB56-6FA8D5D24091}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="移动2-xys20070416" ID="{21CC97F0-8A60-418D-90CA-52B74D4B710A}" ShortID="491245316">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B800C7C8-4837-4104-ABCA-0B5CBE511DFA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C941F12-25C8-4087-87EA-5096605D57FE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="移动2-xys20070416" ID="{BF9AA9C7-B3A9-4FBC-88FC-5197FA8CF83D}">
+									<Language>SFX</Language>
+									<AudioFile>移动2-xys20070416.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="485007948"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="移动2-xys20070416" ID="{BF9AA9C7-B3A9-4FBC-88FC-5197FA8CF83D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="移动3-xys20070416" ID="{366FB295-84DA-4CD5-98C7-F9635E2F9CC9}" ShortID="479245441">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B800C7C8-4837-4104-ABCA-0B5CBE511DFA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C941F12-25C8-4087-87EA-5096605D57FE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="移动3-xys20070416" ID="{643FDFDD-C04B-4351-A4B0-66DE9E27E0F3}">
+									<Language>SFX</Language>
+									<AudioFile>移动3-xys20070416.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1042881449"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="移动3-xys20070416" ID="{643FDFDD-C04B-4351-A4B0-66DE9E27E0F3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="移动4-xys20070416" ID="{1834D084-0E7C-40BE-8BDB-EA5D32EE7799}" ShortID="254681713">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B800C7C8-4837-4104-ABCA-0B5CBE511DFA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C941F12-25C8-4087-87EA-5096605D57FE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="移动4-xys20070416" ID="{24400958-E9C6-4BBF-B748-E7D27A914D96}">
+									<Language>SFX</Language>
+									<AudioFile>移动4-xys20070416.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="573730962"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="移动4-xys20070416" ID="{24400958-E9C6-4BBF-B748-E7D27A914D96}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Voice" ID="{B3EE8635-9CC6-4B9B-AE03-36B59094BF3E}" ShortID="469954013">
+					<PropertyList>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B800C7C8-4837-4104-ABCA-0B5CBE511DFA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Voice" ID="{8BD85238-014B-4063-8869-8264A676E1F4}" WorkUnitID="{2C941F12-25C8-4087-87EA-5096605D57FE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="YX长声1" ID="{75896954-DC1F-4CB7-A114-F877EE2D8BA7}" ShortID="122519723">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B800C7C8-4837-4104-ABCA-0B5CBE511DFA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C941F12-25C8-4087-87EA-5096605D57FE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="YX长声1" ID="{DEA64697-1ABB-446D-96C8-F14E0D0388E5}">
+									<Language>SFX</Language>
+									<AudioFile>YX长声1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="109167361"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="YX长声1" ID="{DEA64697-1ABB-446D-96C8-F14E0D0388E5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="YX长声2" ID="{C8A47A0F-5895-42E0-9D2B-C965227111C2}" ShortID="874028603">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B800C7C8-4837-4104-ABCA-0B5CBE511DFA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C941F12-25C8-4087-87EA-5096605D57FE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="YX长声2" ID="{373A130D-8FDB-434C-AEB5-A5B6C4F0C4AF}">
+									<Language>SFX</Language>
+									<AudioFile>YX长声2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="423136698"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="YX长声2" ID="{373A130D-8FDB-434C-AEB5-A5B6C4F0C4AF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="YX长声3" ID="{FCC7D0FF-58DE-4815-B357-BD4BB07AB8C8}" ShortID="467249308">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B800C7C8-4837-4104-ABCA-0B5CBE511DFA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C941F12-25C8-4087-87EA-5096605D57FE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="YX长声3" ID="{2DB7C554-50E8-40C3-AF5A-C557C753C68D}">
+									<Language>SFX</Language>
+									<AudioFile>YX长声3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="736551442"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="YX长声3" ID="{2DB7C554-50E8-40C3-AF5A-C557C753C68D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="YX长声1" ID="{75896954-DC1F-4CB7-A114-F877EE2D8BA7}"/>
+						<ItemRef Name="YX长声2" ID="{C8A47A0F-5895-42E0-9D2B-C965227111C2}"/>
+						<ItemRef Name="YX长声3" ID="{FCC7D0FF-58DE-4815-B357-BD4BB07AB8C8}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<BlendContainer Name="Ambience" ID="{0BBBC313-4FF4-4777-B2D5-3E0B3C4A4B2F}" ShortID="338883442">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B800C7C8-4837-4104-ABCA-0B5CBE511DFA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C941F12-25C8-4087-87EA-5096605D57FE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="石块摩擦－有碎石声-mcx20070508" ID="{1CB59616-9BF4-4A6B-AAF5-BF8CF16AC985}" ShortID="599034700">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B800C7C8-4837-4104-ABCA-0B5CBE511DFA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C941F12-25C8-4087-87EA-5096605D57FE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="石块摩擦－有碎石声-mcx20070508" ID="{677384EF-253E-454A-931E-E9128F507C3D}">
+									<Language>SFX</Language>
+									<AudioFile>石块摩擦－有碎石声-mcx20070508.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="950406699"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="石块摩擦－有碎石声-mcx20070508" ID="{677384EF-253E-454A-931E-E9128F507C3D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="石头翻滚-LTT20070509" ID="{2F9EE9F6-543C-4E01-9D65-FC938E580DC0}" ShortID="637392310">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B800C7C8-4837-4104-ABCA-0B5CBE511DFA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C941F12-25C8-4087-87EA-5096605D57FE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="石头翻滚-LTT20070509" ID="{76C79645-44B6-4FE3-9FF6-BABAD96B36E7}">
+									<Language>SFX</Language>
+									<AudioFile>石头翻滚-LTT20070509.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="590655738"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="石头翻滚-LTT20070509" ID="{76C79645-44B6-4FE3-9FF6-BABAD96B36E7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<BlendTrackList>
+						<BlendTrack Name="New Blend Track" ID="{0FAC9419-3BE4-4D39-9FA5-D96C414C240E}" ShortID="958000114">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="WindVolume" ID="{6889FF90-00B5-4ED3-8AA7-ABAE72E53B9A}" WorkUnitID="{D78DF479-5BE0-4052-804F-D9543B56AA81}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="石块摩擦－有碎石声-mcx20070508" ID="{1CB59616-9BF4-4A6B-AAF5-BF8CF16AC985}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>0</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>59.8167539267016</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="石头翻滚-LTT20070509" ID="{2F9EE9F6-543C-4E01-9D65-FC938E580DC0}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>41.2303664921466</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>100</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
+				<RandomSequenceContainer Name="ShotGun" ID="{4D62536A-D3D0-4E7E-B083-635B6CB839BB}" ShortID="764840829">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Weapon" ID="{CA109783-C3E5-4766-A0A3-4DFDC9774A59}" WorkUnitID="{C6924D91-F956-45B1-BD55-158A04D1BCD1}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B800C7C8-4837-4104-ABCA-0B5CBE511DFA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Character" ID="{D917A378-B379-480F-A134-18A61FDBA2A5}" WorkUnitID="{2C941F12-25C8-4087-87EA-5096605D57FE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="爆炸－低频饱满2-YS070523" ID="{DA1F6BE1-C855-4372-B5E9-C2D53A171973}" ShortID="295860700">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B800C7C8-4837-4104-ABCA-0B5CBE511DFA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C941F12-25C8-4087-87EA-5096605D57FE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="爆炸－低频饱满2-YS070523" ID="{76FF6A49-47A2-4F5C-9FC4-A67A985F2170}">
+									<Language>SFX</Language>
+									<AudioFile>爆炸－低频饱满2-YS070523.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="284170474"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="爆炸－低频饱满2-YS070523" ID="{76FF6A49-47A2-4F5C-9FC4-A67A985F2170}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="爆炸－低频饱满3-YS070523" ID="{CCF0CF4E-F1B6-40DA-B65B-7B0D63D6C437}" ShortID="1047576717">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B800C7C8-4837-4104-ABCA-0B5CBE511DFA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C941F12-25C8-4087-87EA-5096605D57FE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="爆炸－低频饱满3-YS070523" ID="{FDA71AAF-1240-40B7-AA88-972B817DB050}">
+									<Language>SFX</Language>
+									<AudioFile>爆炸－低频饱满3-YS070523.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="80595539"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="爆炸－低频饱满3-YS070523" ID="{FDA71AAF-1240-40B7-AA88-972B817DB050}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="爆炸－低频饱满4-YS070523" ID="{B28B5F78-8ED9-482B-A54A-FBCB11E0AF8A}" ShortID="565831909">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B800C7C8-4837-4104-ABCA-0B5CBE511DFA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C941F12-25C8-4087-87EA-5096605D57FE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="爆炸－低频饱满4-YS070523" ID="{8B378684-E405-4DBF-A498-4783849109F3}">
+									<Language>SFX</Language>
+									<AudioFile>爆炸－低频饱满4-YS070523.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="11235810"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="爆炸－低频饱满4-YS070523" ID="{8B378684-E405-4DBF-A498-4783849109F3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="爆炸－低频饱满5-YS070523" ID="{2A57254E-2265-41F7-935B-3D1251EB1751}" ShortID="820620049">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B800C7C8-4837-4104-ABCA-0B5CBE511DFA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C941F12-25C8-4087-87EA-5096605D57FE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="爆炸－低频饱满5-YS070523" ID="{6E8904D8-6304-4E18-937B-857001075B06}">
+									<Language>SFX</Language>
+									<AudioFile>爆炸－低频饱满5-YS070523.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1023592047"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="爆炸－低频饱满5-YS070523" ID="{6E8904D8-6304-4E18-937B-857001075B06}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
